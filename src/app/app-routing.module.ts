@@ -20,14 +20,6 @@ const routes: Routes = [
     loadChildren: () => import('./foldersobre/folder.module').then( m => m.FolderPageModule)
   },
   {
-    path: 'anestesia',
-    loadChildren: () => import('./anestesia/anestesia.module').then( m => m.AnestesiaPageModule)
-  },
-  {
-    path: 'produtos',
-    loadChildren: () => impodt('./produtos/produtos.module').then( m => m.ProdutosPageModule)
-  },
-  {
     path: 'pdf1',
     loadChildren: () => import('./pdf1/pdf1.module').then( m => m.Pdf1PageModule)
   },
@@ -62,7 +54,15 @@ const routes: Routes = [
   {
     path: 'movie4',
     loadChildren: () => import('./movie4/movie4.module').then( m => m.Movie4PageModule)
-  }
+  },
+  {
+    path: 'tecn-mandibula',
+    loadChildren: () => import('./tecn-mandibula/tecn-mandibula.module').then( m => m.TecnMandibulaPageModule)
+  },
+  {
+    path: 'tecn-maxila',
+    loadChildren: () => import('./tecn-maxila/tecn-maxila.module').then( m => m.TecnMaxilaPageModule)
+  },
 ];
 
 @NgModule({

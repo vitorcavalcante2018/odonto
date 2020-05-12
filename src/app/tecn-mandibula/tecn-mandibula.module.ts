@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AnestesiaPageRoutingModule } from './anestesia-routing.module';
+import { TecnMandibulaPageRoutingModule } from './tecn-mandibula-routing.module';
 
-import { AnestesiaPage } from './anestesia.page';
+import { TecnMandibulaPage } from './tecn-mandibula.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AnestesiaPageRoutingModule
+    TecnMandibulaPageRoutingModule
   ],
-  declarations: [AnestesiaPage]
+  declarations: [TecnMandibulaPage]
 })
-export class AnestesiaPageModule {}
+export class TecnMandibulaPageModule {}

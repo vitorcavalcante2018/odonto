@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ProdutosPageRoutingModule } from './produtos-routing.module';
+import { TecnMaxilaPageRoutingModule } from './tecn-maxila-routing.module';
 
-import { ProdutosPage } from './produtos.page';
+import { TecnMaxilaPage } from './tecn-maxila.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ProdutosPageRoutingModule
+    TecnMaxilaPageRoutingModule
   ],
-  declarations: [ProdutosPage]
+  declarations: [TecnMaxilaPage]
 })
-export class ProdutosPageModule {}
+export class TecnMaxilaPageModule {}
