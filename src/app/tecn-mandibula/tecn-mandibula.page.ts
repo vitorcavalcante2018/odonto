@@ -14,7 +14,7 @@ export class TecnMandibulaPage implements OnInit {
 
     ngOnInit() {
       this.vidUrl=
-      this.domSatizer.bypassSecurityTrustResourceUrl("https://redetuxnet.com.br/odonto/artigo4.pdf");
+      this.domSatizer.bypassSecurityTrustResourceUrl("https://cdn.discordapp.com/attachments/562043807454068741/710271534006272060/teste.png");
     }
 
 }

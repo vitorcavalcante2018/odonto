@@ -63,6 +63,10 @@ const routes: Routes = [
     path: 'tecn-maxila',
     loadChildren: () => import('./tecn-maxila/tecn-maxila.module').then( m => m.TecnMaxilaPageModule)
   },
+  {
+    path: 'perguntas',
+    loadChildren: () => import('./perguntas/perguntas.module').then( m => m.PerguntasPageModule)
+  },
 ];
 
 @NgModule({
