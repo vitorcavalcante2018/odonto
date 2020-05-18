@@ -67,14 +67,24 @@
           Portanto, o volume máximo de suma solução de lidocaína a 2%, para um adulto com 60 kg, é equivalente ao contido em aproximadamente 7 tubetes.
           <br><br>
           <b>Anestésicos locais nas concentrações, com suas doses máximas para adultos saudáveis (adaptado de Malamed)</b>
+          <br>
+          <br>
+          </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><b>Anestésico Local</b></ion-col>
+          <ion-col><b>Dose máxima</b></ion-col>
+          <ion-col><b>N° tubetes</b></ion-col>
+          <ion-col><b>Máximo absoluto</b></ion-col>
+        </ion-row>
+        <div class="ion-text-center" *ngFor="let item of lista">
+          <ion-row>
+            <ion-col>{{ item.anestesia }}</ion-col><br>
+            <ion-col>{{ item.dosemax }}</ion-col>
+            <ion-col>{{ item.tubetes }}</ion-col>
+            <ion-col>{{ item.maxabsoluto }}</ion-col>
+          </ion-row>
         </div>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
-  <br>
-  <br>
-  <ion-col size="6">
-  <ion-img src="https://cdn.discordapp.com/attachments/562043807454068741/711316447858655324/tabela.PNG" >
-  </ion-img>
-</ion-col>
+      </ion-grid>
 </ion-content>
